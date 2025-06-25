@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: RestAPI
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+
+server:
+  port: 8090
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
